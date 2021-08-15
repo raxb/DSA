@@ -1,8 +1,8 @@
 package com.dsa;
 
 public class CharPosition {
-    private char aChar;
-    private int position;
+    private final char aChar;
+    private final int position;
 
     public CharPosition(char aChar, int position) {
         this.aChar = aChar;

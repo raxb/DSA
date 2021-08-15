@@ -2,9 +2,9 @@ package com.dsa;
 
 import java.util.Arrays;
 
-public class Section1 {
+public class ArrayStructure {
+    private static final CharPosition[] charPositions = new CharPosition[15];
     private static char[] charArray;
-    private static CharPosition[] charPositions = new CharPosition[15];
     private static int numEntries = 0;
 
     public static void main(String[] args) {
